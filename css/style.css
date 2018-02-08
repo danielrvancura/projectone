@@ -1,0 +1,97 @@
+body {
+  background-image: url("/Users/danielvancura/source/1-frontend/projectone/img/346463-spooky-background-1920x1080-hd-for-mobile.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  /* border-color: black; */
+  height: 350px;
+  width: 650px;
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  background: rgba (255, 255, 255, 0.5);
+  padding: 20px;
+  border: 1px solid #08038C;
+  box-shadow: 0 0 8px 3px #fff;
+  align-items: center;
+  margin-left: 27%;
+  margin-right:  40%;
+  margin-top: 10%;
+}
+.question {
+  padding: 20px;
+  font-size: 22px;
+  color: black;
+  background: rgba(192,192,192,0.3);
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+
+}
+.answer {
+  width: 300px;
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  vertical-align: middle;
+  background: rgba(255, 0, 0, 0.5);
+  margin: 10px 0 10px 10px;
+  color: #000000;
+  border-radius: 20px;
+}
+.answer:hover{
+  background: #08038C;
+  color: #f6f6f6;
+}
+.nextbtn {
+  border: none;
+  outline: none;
+  background: silver;
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
+  color: black;
+}
+.nextbtn:hover {
+  background: black;
+  color: #8A0707;
+  font-family: 'Nosifer', cursive;
+}
+.result {
+  height: 120px;
+  text-align: center;
+  font-size: 35px;
+  color: #8A0707;
+  font-family: 'Nosifer', cursive;
+}
+
+h1 {
+  font-family: 'Cedarville cursive', cursive;
+  color: #8A0707;
+  text-align: center;
+  font-size: 40pt;
+  height: 30%;
+  font-weight: bolder;
+}
+
+#play {
+    font-family: "courier", cursive;
+    background-color: transparent;
+    border: 3px solid black;
+    color: #8A0707;
+    font-size: 70px;
+    letter-spacing: 3px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+#play:hover {
+  font-family: 'Nosifer', cursive;
+  color: #8A0707;
+  font-size: 50px;
+}
