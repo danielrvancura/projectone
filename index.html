@@ -4,31 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Phobophobia</title>
 </head>
 <body>
-
-
-      <h1>Phobophobia</h1>
-
+  
+<h1>Phobophobia</h1>
 
 <div id="quiz" class="container">
   <div id="question" class="question"></div>
-  <label class="answer"><input type="radio" name="answer" value="1" /> <span id="answer1"></span></label>
-  <label class="answer"><input type="radio" name="answer" value="2" /> <span id="answer2"></span></label>
-  <label class="answer"><input type="radio" name="answer" value="3" /> <span id="answer3"></span></label>
-  <button id="nextButton" class="nextbtn" onclick="loadNextQuestion();">Next</button>
-
-
+  <label class="answer"><input type="radio" name="answer" value="1" /> &nbsp; &nbsp; <span id="answer1"></span></label>
+  <label class="answer"><input type="radio" name="answer" value="2" /> &nbsp; &nbsp;<span id="answer2"></span></label>
+  <label class="answer"><input type="radio" name="answer" value="3" /> &nbsp; &nbsp;<span id="answer3"></span></label>
+  <button id="nextButton" class="nextbtn" >Next</button>
 </div>
 
-<button id="play">Play</button>
+<div id="instructions" class="container">
+  To play, each player needs to buzz in to answer the questions. Player 1 buzzes in by pressing “Q” and Player 2 buzzes in by pressing “P.” Press “Play” to start and “Next” to advance to the next question.
+  <br><br><button id="play">Play</button>
+</div>
+
+<div id="player1" class="playerturn">Player 1's Turn</div>
+<div id="player2" class="playerturn">Player 2's Turn</div>
+
+<audio id="sound" src="sounds/lightning.mp3"></audio>
+
 <div id="result" class="container result" style="display:none;"></div>
 
-
-  <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
