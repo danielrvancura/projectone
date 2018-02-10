@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-  background-image: url("img/346463-spooky-background-1920x1080-hd-for-mobile.jpg");
+  background-image: url("../img/346463-spooky-background-1920x1080-hd-for-mobile.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
