@@ -18,3 +18,8 @@ Changed up some CSS to make the page more pleasing to the eye. Got pictures to s
 February 8th
 Changed more CSS, cleaned up the answers and question fields. Got the page to display who's turn it is when they buzz in.
 
+February 9th
+Got the sound clip to work. Added more questions with pictures. With Steve's help, got the correct answer to light up green when an option was clicked. Uploaded game to github to be published.
+February 10th
+Downloaded fonts didn't travel with my page so had to add google based fonts in it's place.
+

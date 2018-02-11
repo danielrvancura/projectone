@@ -37,7 +37,7 @@ var questions = [
       "background": 'img/gadot3.jpg'
   },
   {
-    "question":  "If you can't stand Jethro Tull, you might have this phobia",
+    "question":  "If you can't stand Jethro Tull and his flute, you may have this phobia",
       "answer1": "Aulophobia",
       "answer2": "Aurophobia",
       "answer3": "Arachibutyrophobia",
